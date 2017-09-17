@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WittyParrot</title>
+</head>
+<body>
+<script type="text/javascript">
+var listofName = ["john", "roopa", "dinesh", "janu", "suru", "jaisu", "poori", "misty", "Jaggu"];
+	(function array(){
+		console.log(listofName);
+
+		for(i=0; i < listofName.length; i++){
+			var firstNames = listofName[i].charAt(0).toLowerCase();
+			//console.log(i);
+			if(firstNames === 'j'){
+				console.log("Good bye" + listofName[i]);
+			}
+			else{
+			console.log("Hello" + listofName[i]);	
+			}
+			
+			
+		}
+	})();
+</script>
+</body>
+</html>
+  
